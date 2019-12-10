@@ -1,0 +1,8 @@
+    html { /* Setup for sticking divs */
+        position: relative;
+        min-height: 100%;
+    }
+    body::-webkit-scrollbar, main::-webkit-scrollbar { /* WebKit for hiding scrollbars*/
+        width: 0;
+        height: 0;
+    }

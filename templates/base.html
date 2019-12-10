@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="fr">
+<head>
+{% include 'base_head.html' %}
+</head>
+<style>
+{% include 'base_style.css' %}
+</style>
+<body class="d-flex flex-column h-100">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-1 fixed-top">
+{% include 'base_header.html' %}
+</nav>
+<main role="main" class="flex-shrink-0 pt-5 mt-3">
+{% include 'base_content.html' %}
+</main>
+<footer class="footer fixed-bottom py-1 footer-dark bg-dark text-center">
+{% include 'base_footer.html' %}
+</footer>
+</body>
+{% include 'base_scripts.html' %}
+{% block script %}
+{% endblock %}
+</html>
